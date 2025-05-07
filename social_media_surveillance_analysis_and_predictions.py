@@ -23,7 +23,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Loading the dataset
-file_path = '/kaggle/input/social-media-surveillance/960scopus.csv'
+file_path = '960scopus.csv'
 df = pd.read_csv(file_path)
 df.head()
 
